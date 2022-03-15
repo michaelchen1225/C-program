@@ -1,4 +1,4 @@
-/*prog1_1, 第一個C程式碼 */
+/*prog1_1, 第1個C程式碼 */
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)

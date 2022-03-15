@@ -1,6 +1,6 @@
 /*prog2_1,簡單的C語言*/
 #include <stdio.h>  /*include stdio.h*/
-#include <stdlib.h> /*include stdlib.h*,如果dos視窗沒關就不需要這行*/
+#include <stdlib.h> /*include stdlib.h*,如果dos視窗沒關不需要這行*/
 
 int main(void)      /*主函數main()從這裡開始*/
 {

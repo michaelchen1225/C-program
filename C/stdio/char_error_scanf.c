@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()                         /*錯誤原因:因為輸入完int後按下enter,讓scanf讀取,但enter實際上有CR(回歸-->讓scanf讀取*/
+int main()                         /*錯誤原因:因為輸入完int後按下enter,讓scanf讀取,但enter實際上有CR(回歸)-->讓scanf讀取*/
 {                                   /*和LF(換行)兩動作,而LF會留在緩衝區,被12行的scanf讀取(LF的ASCII就是10)   */
     int num;
     char ch;
